@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+    background-color:lightgray;
+}
+
+h2{
+    color:green;
+    background-color:lightyellow;
+}
+
+h3{
+    color:orange;
+    background-color:lightpink;
+}
+
+p{
+    color:black;
+    background-color:white;
+}
