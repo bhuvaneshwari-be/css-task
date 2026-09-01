@@ -1,0 +1,23 @@
+.main {
+    counter-reset: main-counter;
+}
+
+.main > li {
+    counter-increment: main-counter;
+    counter-reset: sub-counter;
+    list-style: none;
+}
+
+.main > li::before {
+    content: counter(main-counter) ". ";
+    font-weight: bold;
+}
+
+.sub li {
+    counter-increment: sub-counter;
+    list-style: none;
+}
+
+.sub li::before {
+    content: counter(main-counter) "." counter(sub-counter) " ";
+}

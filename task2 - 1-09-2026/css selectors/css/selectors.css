@@ -1,0 +1,127 @@
+/*ID Selector */
+#idselector {
+    color:blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+
+#idselector1 {
+    color:grey;
+    font-size: 15px;
+    background-color:lightblue;
+}
+
+/*Class Selector */
+.classselector {
+    color:tomato;
+    font-size: 30px;
+    text-align:center;
+}
+
+.classselector1 {
+    color:indianred;
+    font-size: 15px;
+    background-color:rgb(86, 34, 56)
+}
+
+/* Element Selector */
+h1{
+    color:burlywood;
+    text-align:center;
+    font-size:30px;
+}
+
+p {
+    color:darkslategray;
+    font-size:15px;
+    background-color:brown;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Attribute Selector */
+h1 {
+    text-align:center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+    background-color:lightblue;
+}
+
+input[type="text"] {
+    background-color:yellow;
+}
+input[type="email"] {
+    background-color:lightgreen;
+}
+
+
+/* Group Selector */
+h1,p {
+    color:darkseagreen;
+    font-size:20px;
+}
+
+/* Descandant Selector */
+.descandantselector h1 {
+    text-align: center;
+    font-size: 30px;
+    color:midnightblue;
+}
+
+.descandantselector p {
+    color:mediumseagreen;
+    font-size: 15px;
+    background-color:tomato;
+}
+
+
+
+/* Child Selector */
+.childselector > h1 {
+    color:darkorange;
+    font-size:30px;
+    text-align:center;
+}
+
+.childselector > p {
+    color:darkslategray;
+    font-size:15px;
+    background-color:lightpink;
+
+}
+
+
+/* Adjacent Sibling Selector */
+h2 + p {
+    color:yellow;
+    font-size:15px;
+    background-color:lightblue;
+}
+
+h2{
+    text-align:center;
+    font-size:30px;
+    color:black;
+}
+
+
+/* General Sibling Selector */
+h2 ~ p {
+    color:darkgreen;
+    font-size:15px;
+    background-color:lightcyan;
+}
+
+h2{
+    text-align:center;
+    font-size:30px;
+}
