@@ -1,0 +1,22 @@
+#tablevalues {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tfoot > tr > td {
+    font-weight : bold;
+    background-color:darkgrey;
+    color:white;
+    text-align:right;
+}
+
+tbody > tr > td:nth-child(3) {
+    text-align:right;
+}
+
+tbody > tr > td:nth-child(4) {
+    text-align:right;
+}
