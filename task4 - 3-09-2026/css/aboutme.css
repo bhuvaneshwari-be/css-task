@@ -1,0 +1,12 @@
+body {
+    background-image : url("../assets/portfolio.avif");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    color: #0F172A;
+    margin: 0 0 0 0;
+}

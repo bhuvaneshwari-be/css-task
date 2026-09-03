@@ -1,0 +1,45 @@
+body {
+    background-image : url("../assets/portfolio.avif");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    color: #0F172A;
+    margin: 200px 500px 0px 500px;
+    text-align: center;
+}
+
+h2{ 
+    color: #1E293B;
+    text-align:center;
+}
+
+h3{ 
+    color:#334155;
+    text-align: center;
+}
+
+.education{
+    /* border: 2px solid white; */
+    text-decoration: none;
+    color: #0F172A;
+    display : inline-block;
+    font-size: 20px;
+}
+
+.aboutme{
+    text-decoration: none;
+    color: #0F172A;
+    display : inline-block;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
