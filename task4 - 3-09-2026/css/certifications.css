@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    width: 80%;
+    max-width: 1100px;
+    margin: 30px auto;          /* centers the header */
+    padding: 25px 40px;
+    background-color: #e1dada;   /* different background only for header */
+    border-radius: 10px;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: center;    /* centers the menu */
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu a {
+    color: rgb(35, 33, 33);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #bdbdbd;
+}
+
+
+/* ================= MAIN CONTENT ================= */
+
+.wrap {
+    flex: 1;
+
+    padding: 70px 8%;
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+
+/* ================= PAGE TITLE ================= */
+
+.page-title {
+    font-size: 60px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ================= TABLE CONTAINER ================= */
+
+.cert-table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    font-size: 16px;
+    color: #f1f1f1;
+
+    /* Glass effect */
+    background-color: rgba(20, 20, 30, 0.75);
+
+    /* Shadow */
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.5),
+        0 0 15px rgba(255, 255, 255, 0.08);
+
+    border-radius: 12px;
+    overflow: hidden;
+
+    backdrop-filter: blur(8px);
+}
+
+/* ================= TABLE HEADER ================= */
+
+.cert-table th {
+    background-color: rgba(244, 197, 66, 0.18);
+
+    color: #f4c542;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 18px 20px;
+
+    text-align: left;
+
+    border-bottom: 2px solid #f4c542;
+
+    letter-spacing: 0.5px;
+}
+
+/* ================= TABLE CELLS ================= */
+
+.cert-table td {
+    padding: 18px 20px;
+
+    text-align: left;
+
+    line-height: 1.6;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    font-size: 16px;
+}
+
+/* Remove bottom border from last row */
+
+.cert-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* ================= TABLE ROW HOVER ================= */
+
+.cert-table tbody tr {
+    transition: 0.3s;
+}
+
+.cert-table tbody tr:hover {
+    background-color: rgba(244, 197, 66, 0.12);
+
+    transform: scale(1.01);
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 14px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);

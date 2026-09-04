@@ -65,13 +65,13 @@ header {
     color: #bdbdbd;
 }
 
+
 .wrap {
 flex: 1;
 
-
 padding: 80px 12%;
 
-max-width: 1200px;
+max-width: 1100px;
 
 
 }
@@ -80,40 +80,91 @@ max-width: 1200px;
 font-size: 70px;
 
 
-margin-bottom: 35px;
+margin-bottom: 25px;
 
 
 }
 
-.education-table {
-width: 100%;
+.project-intro {
+font-size: 18px;
+line-height: 1.8;
 
 
-border-collapse: collapse;
-
-font-size: 16px;
+margin-bottom: 40px;
 
 color: #f1f1f1;
 
 
 }
 
-.education-table th,
-.education-table td {
-border: 1px solid white;
+.project {
+margin-bottom: 40px;
 
 
-padding: 15px;
+padding-bottom: 30px;
 
-text-align: left;
-
-line-height: 1.5;
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 
 
 }
 
-.education-table th {
+.project-title {
+font-size: 28px;
+
 color: #f4c542;
+
+margin-bottom: 15px;
+
+}
+
+.project-desc {
+font-size: 17px;
+
+
+line-height: 1.8;
+
+margin-bottom: 20px;
+
+color: #f1f1f1;
+
+
+}
+
+.project-label {
+font-size: 16px;
+
+
+font-weight: bold;
+
+margin-bottom: 12px;
+
+color: white;
+
+
+}
+
+.stack-container {
+display: flex;
+
+
+gap: 12px;
+
+flex-wrap: wrap;
+
+
+}
+
+.stack {
+padding: 8px 15px;
+
+
+font-size: 14px;
+
+color: #f4c542;
+
+border: 1px solid #f4c542;
+
+
 }
 
 footer {
@@ -125,6 +176,5 @@ padding: 20px;
 font-size: 14px;
 
 background-color: rgba(0, 0, 0, 0.4);
-
 
 }

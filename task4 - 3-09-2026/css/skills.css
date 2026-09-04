@@ -7,7 +7,6 @@
 body {
 font-family: Arial, sans-serif;
 
-
 background-image:
     url("../assets/background.jpg");
 
@@ -65,13 +64,14 @@ header {
     color: #bdbdbd;
 }
 
+
 .wrap {
 flex: 1;
 
 
 padding: 80px 12%;
 
-max-width: 1200px;
+max-width: 1100px;
 
 
 }
@@ -80,45 +80,65 @@ max-width: 1200px;
 font-size: 70px;
 
 
-margin-bottom: 35px;
+margin-bottom: 25px;
 
 
 }
 
-.education-table {
-width: 100%;
+.skills-intro {
+font-size: 18px;
 
 
-border-collapse: collapse;
+line-height: 1.8;
 
-font-size: 16px;
+margin-bottom: 40px;
 
 color: #f1f1f1;
 
 
 }
 
-.education-table th,
-.education-table td {
-border: 1px solid white;
+.skill-section {
+margin-bottom: 35px;
+}
+
+.skill-heading {
+font-size: 24px;
 
 
-padding: 15px;
+color: #f4c542;
 
-text-align: left;
-
-line-height: 1.5;
+margin-bottom: 15px;
 
 
 }
 
-.education-table th {
-color: #f4c542;
+.skills-list {
+display: flex;
+
+
+gap: 12px;
+
+flex-wrap: wrap;
+
+
+}
+
+.skills-list span {
+padding: 10px 18px;
+
+
+font-size: 16px;
+
+color: #f1f1f1;
+
+border: 1px solid #f4c542;
+
+
 }
 
 footer {
 text-align: center;
-
 
 padding: 20px;
 
